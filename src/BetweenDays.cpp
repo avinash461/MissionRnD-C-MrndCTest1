@@ -41,6 +41,7 @@ int between_days(struct node *date1head, struct node *date2head){
 			d1 = temp1->data + d1 * 10;
 			d2 = temp2->data + d2 * 10;
 			temp1 = temp1->next;
+			temp2 = temp->next;
 		}
 	}
 	return -1;
